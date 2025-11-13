@@ -1,22 +1,20 @@
-# Experiment 6: Blockchain-Based Passwordless Authentication (Using Public-Private Key Cryptography)
-# Aim:
-To implement a secure passwordless authentication system using public-private key cryptography on Ethereum. This prevents phishing and password leaks.
+# Experiment 6: Blockchain-Based Passwordless 
+# Name : Mukesh R
+# Reg no : 212224240098
 
-# Algorithm:
-Step 1: User Registration
-A user registers with their Ethereum public key (instead of a password).
-
-
-Step 2: Login Process
-When logging in, the user signs a random challenge message using their private key.
-
-
-The smart contract verifies the signature using the user’s public key.
-
-
-
-# Program:
-```
+Authentication (Using Public-Private Key 
+Cryptography) 
+## Aim: 
+To implement a secure passwordless authentication system using public-private key cryptography on 
+Ethereum. This prevents phishing and password leaks. 
+## Algorithm: 
+Step 1: User Registration 
+1. A user registers with their Ethereum public key (instead of a password). 
+Step 2: Login Process 
+2. When logging in, the user signs a random challenge message using their private key. 
+3. The smart contract verifies the signature using the user’s public key. 
+## Code: 
+``` 
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
@@ -92,25 +90,27 @@ contract PasswordlessAuthDemo {
     }
 }
 ```
+ 
+ 
+## Expected Output: 
+● Users can register without a password. 
+ 
+● Users sign a challenge with their private key for authentication. 
+ 
+● The smart contract verifies signatures to confirm identity. 
+ 
+ 
+## High-Level Overview: 
+● Eliminates password hacks & phishing attacks. 
+ 
+● Uses Ethereum's built-in cryptographic functions. 
+ 
+● Inspired by Web3 login solutions like MetaMask authentication.
 
-# Expected Output:
-Users can register without a password.
+## Output:
 
+<img width="1431" height="1020" alt="Screenshot 2025-11-06 085047" src="https://github.com/user-attachments/assets/75056be5-ce99-4939-946f-5ea544f39225" />
 
-Users sign a challenge with their private key for authentication.
-
-
-The smart contract verifies signatures to confirm identity.
-
-
-
-# High-Level Overview:
-Eliminates password hacks & phishing attacks.
-
-
-Uses Ethereum's built-in cryptographic functions.
-
-
-Inspired by Web3 login solutions like MetaMask authentication.
-
-# RESULT: 
+## Result:
+Thus, To implement a secure passwordless authentication system using public-private key cryptography on 
+Ethereum is successfully verified.
