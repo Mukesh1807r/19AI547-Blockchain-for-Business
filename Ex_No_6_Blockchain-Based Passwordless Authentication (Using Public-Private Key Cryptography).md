@@ -14,7 +14,7 @@ Step 2: Login Process
 2. When logging in, the user signs a random challenge message using their private key. 
 3. The smart contract verifies the signature using the user’s public key. 
 ## Code: 
-``` 
+```python
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
